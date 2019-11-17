@@ -116,4 +116,7 @@
   <QE_MaxCloningTime>最大培養時間（日）</QE_MaxCloningTime>
   <QE_MaxCloningTimeTooltip>クローン培養槽でクローンを培養するのにかかる時間はこの日数より長くなりません。初期値は60日間</QE_MaxCloningTimeTooltip>
 
+  <!-- version 1.04 Patch -->
+  <QE_OrganVatDebugFinishGrowingDescription>臓器の成長を即座に完了します。</QE_OrganVatDebugFinishGrowingDescription>
+
 </LanguageData>
