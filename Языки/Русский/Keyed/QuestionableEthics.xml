@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Grower Building -->
+  <QE_GrowerCraftingProgress>Статус</QE_GrowerCraftingProgress>
+  <!-- Status -->
+  <QE_GrowerStatus>Статус</QE_GrowerStatus>
+  <QE_GrowerStatus_Idle>Свободно</QE_GrowerStatus_Idle>
+  <QE_GrowerStatus_Filling>Заполнение</QE_GrowerStatus_Filling>
+  <QE_GrowerStatus_Crafting>Выращивание</QE_GrowerStatus_Crafting>
+  <QE_GrowerStatus_Finished>Закончено</QE_GrowerStatus_Finished>
+  <!-- Ingredients -->
+  <QE_GrowerIngredientsNeeded>Требуется</QE_GrowerIngredientsNeeded>
+  <QE_GrowerIngredientsFilled>Заполненно</QE_GrowerIngredientsFilled>
+
+  <!-- Vat grower -->
+  <QE_VatGrowerProduct>Продукт</QE_VatGrowerProduct>
+  <QE_VatGrowerMaintenance>Обслуживание: {0} Ученый, {1} Врач</QE_VatGrowerMaintenance>
+  <QE_VatGrowerCleanlinessMult>Поддержание чистоты чана. множитель: {0}</QE_VatGrowerCleanlinessMult>
+  <QE_VatGrowerDaysRemaining>Дня(ей) осталось</QE_VatGrowerDaysRemaining>
+  <QE_VatGrowerHoursRemaining>Час(ов) осталось </QE_VatGrowerHoursRemaining>
+  <QE_VatGrowerNoLivingBeing>Отсутствует живое существо</QE_VatGrowerNoLivingBeing>
+  <QE_VatGrowerNoRecipe>Нет рецепта</QE_VatGrowerNoRecipe>
+  <!-- Gizmos -->
+  <QE_VatGrowerStartCraftingGizmoLabel>Начать выращивание</QE_VatGrowerStartCraftingGizmoLabel>
+  <QE_VatGrowerStartCraftingGizmoDescription>Выберите орган для выращивания и начните заполнять чан необходимыми ингредиентами.</QE_VatGrowerStartCraftingGizmoDescription>
+  <QE_VatGrowerStartCraftingFloatMenuDisabled>{0} (Требуется исследование: {1})</QE_VatGrowerStartCraftingFloatMenuDisabled>
+  <QE_VatGrowerStopCraftingGizmoLabel>Остановить выращивание</QE_VatGrowerStopCraftingGizmoLabel>
+  <QE_VatGrowerStopCraftingGizmoDescription>Возвращает ингредиенты, если процесс ещё не начинался.</QE_VatGrowerStopCraftingGizmoDescription>
+  <QE_CustomNameCompGizmoLabel>Ввести имя</QE_CustomNameCompGizmoLabel>
+  <QE_CustomNameCompGizmoDescription>Задает имя которое можно легко идентифицировать.</QE_CustomNameCompGizmoDescription>
+  <QE_VatGrowerGenomesHint>Нет доступного генома. Получите его, сделав 'Секвенсор генома' на верстаке, затем используйте его.</QE_VatGrowerGenomesHint>
+  <QE_VatGrowerDebugFinishGrowing>DEBUG: Закончить рост</QE_VatGrowerDebugFinishGrowing>
+  <QE_VatGrowerDebugFinishGrowingDescription>Мгновенно заканчивает выращивание существа.</QE_VatGrowerDebugFinishGrowingDescription>
+  <!-- UI -->
+  <QE_CustomNameCompDialogTitle>Ввести имя для  {0}</QE_CustomNameCompDialogTitle>
+  <!-- Genome Sequencer -->
+  <QE_GenomeSequencerDescription_Name>Имя источника</QE_GenomeSequencerDescription_Name>
+  <QE_GenomeSequencerDescription_Race>Раса</QE_GenomeSequencerDescription_Race>
+  <QE_GenomeSequencerDescription_Gender>Пол</QE_GenomeSequencerDescription_Gender>
+  <QE_GenomeSequencerDescription_Traits>Черты характера</QE_GenomeSequencerDescription_Traits>
+  <QE_GenomeSequencerSalvage>Собрать геном с трупа ({0} шанс)</QE_GenomeSequencerSalvage>
+  <!-- Alerts -->
+  <QE_AlertMaintenanceRequiredLabel>Необходимо обслуживание чана</QE_AlertMaintenanceRequiredLabel>
+  <QE_AlertMaintenanceRequiredExplanation>Необходимо обслуживание иначе процесс может быть проведен в пустую и все ресурсы будут потеряны!\n\nНаправьте доктора или ученого для обслуживания чана.</QE_AlertMaintenanceRequiredExplanation>
+  <!-- Messages -->
+  <QE_MessageGrowingDone>Выращивание {0} закончено.</QE_MessageGrowingDone>
+  <!-- Letters -->
+  <QE_LetterHumanlikeGrownLabel>Создание клона</QE_LetterHumanlikeGrownLabel>
+  <QE_LetterHumanlikeGrownDescription>Добро пожаловать в колонию! {PAWN_labelShort} \n\n{PAWN_pronoun} не имеет естественных навыков, однако вы можете применить шаблон сканирования мозга на {PAWN_objective} чтобы дать {PAWN_objective} набор навыков сразу.</QE_LetterHumanlikeGrownDescription>
+
+  <!-- Brain scanning -->
+  <QE_BrainScanningRejectNoValidBed>{0} была отключена из-за отсутствия необходимой кровати.</QE_BrainScanningRejectNoValidBed>
+  <QE_BrainScanningRejectDead>{PAWN_labelShort} был отклочен потому что {PAWN_pronoun} мертв и не имеет мозговой активности.</QE_BrainScanningRejectDead>
+  <QE_BrainScanningRejectNotClone>{PAWN_labelShort} был отклочен потому что {PAWN_pronoun} Не является клоном.</QE_BrainScanningRejectNotClone>
+  <QE_BrainScanningRejectAlreadyTemplated>{PAWN_labelShort} был отклочен потому что {PAWN_pronoun} Уже имеет шаблон мозга.</QE_BrainScanningRejectAlreadyTemplated>
+  <QE_BrainScanningRejectExcludedHediff>{PAWN_labelShort} был отклочен потому что {PAWN_pronoun} имеет hediff это исключает {PAWN_objective} возможность мозгового сканирования.</QE_BrainScanningRejectExcludedHediff>
+  <QE_BrainScanningRejectExcludedRace>{0} не является допустимой расой для сканирования мозга.</QE_BrainScanningRejectExcludedRace>
+  <QE_BrainScanningRejectNotAnimal>{0} был отклочен потому что этот шаблон можно применять только к животным.</QE_BrainScanningRejectNotAnimal>
+  <QE_BrainScanningRejectNotHumanlike>{0} был отклочен потому что этот шаблон нельзя применить к животному.</QE_BrainScanningRejectNotHumanlike>
+  <QE_BrainScanningApplyTemplate>Применить шаблон сканирования мозга</QE_BrainScanningApplyTemplate>
+  <QE_BrainScanningFloatMenuLabel>Применить шаблон сканирования мозга на {0}</QE_BrainScanningFloatMenuLabel>
+  <QE_BrainScanningFloatMenuLabelDisabled>{0} (Нет кровати)</QE_BrainScanningFloatMenuLabelDisabled>
+  <QE_BrainScanDescription_BackshortChild>Предыстория детства</QE_BrainScanDescription_BackshortChild>
+  <QE_BrainScanDescription_BackshortAdult>Предыстория совершеннолетия</QE_BrainScanDescription_BackshortAdult>
+  <QE_BrainScanDescription_Skills>Сохраненные навыки (Интересы обозначены звездочками)</QE_BrainScanDescription_Skills>
+  <QE_BrainScanDescription_Training>Сохраненное обучение</QE_BrainScanDescription_Training>
+  <QE_BrainTemplatingComplete>Шаблон мозга успешно применен на {PAWN_labelShort}.</QE_BrainTemplatingComplete>
+
+  <!-- Bed validation checks for applying brain templates. Enable debug logging in the Mod Settings to see these in the log. -->
+  <QE_BedInvalid>{0} Не является допустимой кроватью</QE_BedInvalid>
+  <QE_BedIsNotMedical>Недействительная кровать '{0}'. Причина - кровать не медицинская</QE_BedIsNotMedical>
+  <QE_BedUnreachableBySurgeon>Недействительная кровать '{0}'. Причина - {SURGEON_labelShort} Не удается добраться до нее или использовать ее</QE_BedUnreachableBySurgeon>
+  <QE_BedTooDangerous>Недействительная кровать '{0}'. Причина - слишком опасный для {PATIENT_labelShort}</QE_BedTooDangerous>
+  <QE_BedSurgeonAlreadyReserved>Недействительная кровать '{0}'. Причина - Кровать уже используется {SURGEON_labelShort}</QE_BedSurgeonAlreadyReserved>
+  <QE_BedOccupied>Недействительная кровать '{0}'. Причина - Кровать уже занята</QE_BedOccupied>
+  <QE_BedForbidden>Недействительная кровать '{0}'. Причина - кровать запрещена</QE_BedForbidden>
+  <QE_BedIsBurning>Недействительная кровать '{0}'. Причина - кровать горит</QE_BedIsBurning>
+  <QE_BedImproperForPrisoner>Недействительная кровать '{0}'. Причина - {PATIENT_labelShort} Заключенный, постель не для заключенных</QE_BedImproperForPrisoner>
+  <QE_BedNotInPrisonCell>Недействительная кровать '{0}'. Причина - {PATIENT_labelShort} Заключенный, постель не в тюремной камере</QE_BedNotInPrisonCell>
+  <QE_BedImproperFaction>Недействительная кровать '{0}'. Причина - Кровать не принадлежит {SURGEON_labelShort} фракции</QE_BedImproperFaction>
+  <QE_PrisonerBedForNonPrisoner>Недействительная кровать '{0}'. Причина - {PATIENT_labelShort} Не заключенный, постель для заключенных</QE_PrisonerBedForNonPrisoner>
+  <QE_BedHasAnotherOwner>Недействительная кровать '{0}'. Причина - Кровать принадлежит другому колонисту</QE_BedHasAnotherOwner>
+  <QE_BedSelected>{0} выбран для работы с шаблоном мозга</QE_BedSelected>
+
+  <!-- Mod settings -->
+  <QE_OrganGrowthDuration>Множитель времени для роста органа</QE_OrganGrowthDuration>
+  <QE_OrganGrowthDurationTooltip>Высокое значение = увеличенное количество времени необходимого для роста органов. Норма = 1.0</QE_OrganGrowthDurationTooltip>
+  <QE_OrganIngredientMult>Множитель затрат ресурсов на создание органов</QE_OrganIngredientMult>
+  <QE_OrganIngredientMultTooltip>Высокое значение = увеличенное количество ресурсов необходимых для создания органов. Норма = 1.0</QE_OrganIngredientMultTooltip>
+  <QE_CloneGrowthDuration>Множитель времени для роста клона</QE_CloneGrowthDuration>
+  <QE_CloneGrowthDurationTooltip>Высокое значение = увеличенное количество времени необходимого для роста клонов. Норма = 1.0</QE_CloneGrowthDurationTooltip>
+  <QE_CloneIngredientMult>Множитель общего количества ингредиентов клона</QE_CloneIngredientMult>
+  <QE_CloneIngredientMultTooltip>Высокое значение = увеличенное количество ингредиентов необходимых для роста клонов. Норма = 1.0</QE_CloneIngredientMultTooltip>
+  <QE_VatMaintTime>Время между обслуживанием чана</QE_VatMaintTime>
+  <QE_VatMaintTimeTooltip>Высокое значение = увеличенный интервал между обслуживанием. Норма = 1.0</QE_VatMaintTimeTooltip>
+  <QE_DebugLogging>Журнала отладки</QE_DebugLogging>
+  <QE_DebugLoggingTooltip>Включить ведение журнала отладки для мода. Полезно если вы столкнулись с ошибками или со странным поведением мода. Норма: Disabled</QE_DebugLoggingTooltip>
+  <QE_MaintenanceWorkThreshold>Дать задание по обслуживанию чана.</QE_MaintenanceWorkThreshold>
+  <QE_MaintenanceWorkThresholdTooltip>Дать колонисту задание «обслуживать чан» при этом проценте оставшегося обслуживания. Норма: 40%</QE_MaintenanceWorkThresholdTooltip>
+  <QE_GiveCloneNegativeThought>Дать новым клонам негативную мысль "Выращенный клон" </QE_GiveCloneNegativeThought>
+  <QE_GiveCloneNegativeThoughtTooltip>При выращивании человекоподобного клона дает ему временную негативную мысль, чтобы указать на путаницу о новой среде. Норма: Enabled</QE_GiveCloneNegativeThoughtTooltip>
+
+  <!-- version 1.02 Patch -->
+  <QE_BlankGenomeTemplateName>Не используйте это</QE_BlankGenomeTemplateName>
+  <QE_BlankGenomeTemplateDescription>Этот шаблон был создан с помощью игрового события или команд отладки. Он непригоден для использования при клонировании.</QE_BlankGenomeTemplateDescription>
+
+  <!-- version 1.03 Patch -->
+  <QE_GenomeSequencerDescription_Hair>Волосы</QE_GenomeSequencerDescription_Hair>
+  <QE_CloningPawnNullMessage>Клон существа в чане неисправен. Попытки исправить это потерпели неудачу. Отмена процесса клонирования, возврат ингредиентов и сброс чана.</QE_CloningPawnNullMessage>
+  <QE_CloningMaintFailMessage>Процесс клонирования не удался для клона {SOURCEPAWNNAME}. Причина - Чан не поддерживается</QE_CloningMaintFailMessage>
+  <QE_CloningMaintFailFallbackMessage>Процесс клонирования не удался. Причина - Чан не поддерживается</QE_CloningMaintFailFallbackMessage>
+  <QE_OrgaVatMaintFailMessage>{ORGANNAME} создание не удалось. Причина - Чан не поддерживается</QE_OrgaVatMaintFailMessage>
+  <QE_OrgaVatMaintFailFallbackMessage>Создание органа не удалось. Причина - Чан не поддерживается</QE_OrgaVatMaintFailFallbackMessage>
+  <QE_MaxCloningTime>Макс время клонирования (дней)</QE_MaxCloningTime>
+  <QE_MaxCloningTimeTooltip>Клон не будет расти дольше указаного числа дней в чане клонирования. Норма = 60</QE_MaxCloningTimeTooltip>
+
+</LanguageData>
