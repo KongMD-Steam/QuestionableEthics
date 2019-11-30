@@ -8,12 +8,9 @@ using Verse;
 
 namespace QEthics
 {
-    /// <summary>
-    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
-    /// </summary>
-    public class Alert_GrowerMaintenance : Alert_Critical
+    public class Alert_MaintenanceLow : Alert_Critical
     {
-        public Alert_GrowerMaintenance()
+        public Alert_MaintenanceLow()
         {
             defaultLabel = "QE_AlertMaintenanceRequiredLabel".Translate();
             defaultExplanation = "QE_AlertMaintenanceRequiredExplanation".Translate();
@@ -23,7 +20,7 @@ namespace QEthics
         {
             float maintAlertPercent = 0.20f;
             return Find.CurrentMap.listerBuildings.allBuildingsColonist.Where(
-                building => building is Building_GrowerBase grower && grower.status == CrafterStatus.Crafting && 
+                building => building is Building_GrowerBase_WorkTable grower && grower.status == CrafterStatus.Crafting && 
                 building is IMaintainableGrower maintainable && 
                 (maintainable.DoctorMaintenance < maintAlertPercent || maintainable.ScientistMaintenance < maintAlertPercent));
         }

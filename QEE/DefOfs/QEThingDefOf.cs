@@ -13,6 +13,7 @@ namespace QEthics
         public static ThingDef QE_NutrientSolution;
         public static ThingDef QE_ProteinMash;
         public static ThingDef QE_Organ_Arm;
+        public static ThingDef QE_GenomeSequencerFilled;
 
         static QEThingDefOf()
         {

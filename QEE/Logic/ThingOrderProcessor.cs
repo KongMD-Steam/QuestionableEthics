@@ -27,7 +27,7 @@ namespace QEthics
         /// </summary>
         public IThingHolder observedThingHolder;
 
-        public bool requestsLost;
+        public bool requestsLost = false;
 
         public ThingOwner ObservedThingOwner
         {

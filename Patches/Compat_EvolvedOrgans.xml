@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- This patch adds Evolved Organs recipes to the new Organ Vat in QEE added in patch 1.0.4. -->
+  <Operation Class="PatchOperationFindMod">
+    <success>Always</success>
+    <mods>
+      <li>Evolved Organs</li>
+      <li>Evolved Organs [ICE]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+        <!--adding vat recipe bases-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef Name="QE_EvolvedOrganGrowerRecipeBase" Abstract="True">
+              <workAmount>300000</workAmount>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>EVO_Mechanite_Slurry</li>
+                    </thingDefs>
+                  </filter>
+                  <count>20</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>EVO_Humanoid_Protein</li>
+                    </thingDefs>
+                  </filter>
+                  <count>35</count>
+                </li>
+              </ingredients>
+              <modExtensions>
+                <li Class="QEthics.RecipeGraphicProperties">
+                  <productGraphic>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <texPath>Effects/Organs/Shinzy_Organ</texPath>
+                    <shaderType>MoteGlow</shaderType>
+                    <drawRotated>false</drawRotated>
+                  </productGraphic>
+                </li>
+              </modExtensions>
+              <recipeUsers>
+                <li>QE_Building_OrganVat</li>
+              </recipeUsers>
+            </RecipeDef>
+          </value>
+        </li>
+
+        <!--adding the actual recipes -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EmpathicResonator</defName>
+              <label>empathic resonator</label>
+              <products>
+                <EmpathicResonator>1</EmpathicResonator>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArm</defName>
+              <label>evolved arm</label>
+              <products>
+                <EvolvedArm>1</EvolvedArm>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArmClaw</defName>
+              <label>evolved arm claw</label>
+              <products>
+                <EvolvedArmClaw>1</EvolvedArmClaw>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArmMace</defName>
+              <label>evolved arm mace</label>
+              <products>
+                <EvolvedArmMace>1</EvolvedArmMace>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArmSabre</defName>
+              <label>evolved arm sabre</label>
+              <products>
+                <EvolvedArmSabre>1</EvolvedArmSabre>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArmShield</defName>
+              <label>evolved arm shield</label>
+              <products>
+                <EvolvedArmShield>1</EvolvedArmShield>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedArmTentacle</defName>
+              <label>evolved arm tentacle</label>
+              <products>
+                <EvolvedArmTentacle>1</EvolvedArmTentacle>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedBrain</defName>
+              <label>evolved brain</label>
+              <products>
+                <EvolvedBrain>1</EvolvedBrain>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedCarapace</defName>
+              <label>evolved carapace</label>
+              <products>
+                <EvolvedCarapace>1</EvolvedCarapace>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedCombatGlands</defName>
+              <label>evolved combat glands</label>
+              <products>
+                <EvolvedCombatGlands>1</EvolvedCombatGlands>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedEar</defName>
+              <label>evolved ear</label>
+              <products>
+                <EvolvedEar>1</EvolvedEar>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedEye</defName>
+              <label>evolved eye</label>
+              <products>
+                <EvolvedEye>1</EvolvedEye>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedJaw</defName>
+              <label>evolved jaw</label>
+              <products>
+                <EvolvedJaw>1</EvolvedJaw>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedKidney</defName>
+              <label>evolved kidney</label>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+              <products>
+                <EvolvedKidney>1</EvolvedKidney>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedLarnyx</defName>
+              <label>evolved larnyx</label>
+              <products>
+                <EvolvedLarnyx>1</EvolvedLarnyx>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedLeg</defName>
+              <label>evolved leg</label>
+              <products>
+                <EvolvedLeg>1</EvolvedLeg>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs1</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedLiver</defName>
+              <label>evolved liver</label>
+              <products>
+                <EvolvedLiver>1</EvolvedLiver>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedLung</defName>
+              <label>evolved lung</label>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+              <products>
+                <EvolvedLung>1</EvolvedLung>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedNose</defName>
+              <label>evolved nose</label>
+              <products>
+                <EvolvedNose>1</EvolvedNose>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedPelt</defName>
+              <label>evolved pelt</label>
+              <products>
+                <EvolvedPelt>1</EvolvedPelt>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedPinions</defName>
+              <label>evolved pinions</label>
+              <products>
+                <EvolvedPinions>1</EvolvedPinions>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedPrimaryHeart</defName>
+              <label>evolved primary heart</label>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+              <products>
+                <EvolvedPrimaryHeart>1</EvolvedPrimaryHeart>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedFilter</defName>
+              <label>evolved psychic filter</label>
+              <products>
+                <EvolvedFilter>1</EvolvedFilter>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedRibcage</defName>
+              <label>evolved ribcage</label>
+              <products>
+                <EvolvedRibcage>1</EvolvedRibcage>
+              </products>
+              <researchPrerequisite>EvolvedOrgansR2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedSecondHeart</defName>
+              <label>evolved secondary heart</label>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+              <products>
+                <EvolvedSecondHeart>1</EvolvedSecondHeart>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedSpider</defName>
+              <label>evolved spider</label>
+              <products>
+                <EvolvedSpider>1</EvolvedSpider>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedSpine</defName>
+              <label>evolved spine</label>
+              <products>
+                <EvolvedSpine>1</EvolvedSpine>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedStomach</defName>
+              <label>evolved stomach</label>
+              <products>
+                <EvolvedStomach>1</EvolvedStomach>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedTail</defName>
+              <label>evolved tail</label>
+              <products>
+                <EvolvedTail>1</EvolvedTail>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchLimbs2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_EvolvedThirdLung</defName>
+              <label>evolved third lung</label>
+              <products>
+                <EvolvedThirdLung>1</EvolvedThirdLung>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_LymphaticProliferator</defName>
+              <label>lymphatic proliferator</label>
+              <products>
+                <LymphaticProliferator>1</LymphaticProliferator>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans2</researchPrerequisite>
+            </RecipeDef>
+
+            <RecipeDef>
+              <defName>QE_EVO_Mechanite_Slurry</defName>
+              <label>propogate mechanites</label>
+              <workAmount>100000</workAmount>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>EVO_Mechanite_Slurry</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Plasteel</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Gold</li>
+                    </thingDefs>
+                  </filter>
+                  <count>.5</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>QE_NutrientSolution</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <recipeUsers>
+                <li>QE_Building_OrganVat</li>
+              </recipeUsers>
+              <modExtensions>
+                <li Class="QEthics.RecipeGraphicProperties">
+                  <productGraphic>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <texPath>Patches/QE/motes</texPath>
+                    <shaderType>MoteGlow</shaderType>
+                    <drawRotated>false</drawRotated>
+                  </productGraphic>
+                </li>
+              </modExtensions>
+              <researchPrerequisite>EvolvedOrgansR1</researchPrerequisite>
+              <products>
+                <EVO_Mechanite_Slurry>20</EVO_Mechanite_Slurry>
+              </products>
+            </RecipeDef>
+
+            <RecipeDef ParentName="QE_EvolvedOrganGrowerRecipeBase">
+              <defName>QE_ImmortalOrgan</defName>
+              <label>ra's vacuole</label>
+              <products>
+                <ImmortalOrgan>1</ImmortalOrgan>
+              </products>
+              <researchPrerequisite>EvolvedOrgansResearchOrgans3</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

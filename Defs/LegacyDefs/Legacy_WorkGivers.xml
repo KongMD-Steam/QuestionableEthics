@@ -1,0 +1,53 @@
+<Defs>
+    <WorkGiverDef>
+        <defName>QE_OrderProcessor_OrganVat</defName>
+        <label>fill organ vat</label>
+        <giverClass>QEthics.WorkGiver_GrowerOrderProcessor</giverClass>
+        <workType>Hauling</workType>
+        <verb>fill</verb>
+        <gerund>filling</gerund>
+        <priorityInType>20</priorityInType>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <fixedBillGiverDefs>
+            <li>QE_OrganVat</li>
+        </fixedBillGiverDefs>
+    </WorkGiverDef>
+
+    <WorkGiverDef>
+        <defName>QE_OrganVat_Extract</defName>
+        <label>extract product from organ vat</label>
+        <giverClass>QEthics.WorkGiver_GrowerExtractProduct</giverClass>
+        <workType>Hauling</workType>
+        <verb>extract</verb>
+        <gerund>extracting</gerund>
+        <priorityInType>20</priorityInType>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <fixedBillGiverDefs>
+            <li>QE_OrganVat</li>
+        </fixedBillGiverDefs>
+    </WorkGiverDef>
+
+    <WorkGiverDef Name="OrganVatMaintainBase" Abstract="True">
+        <label>maintain organ vat</label>
+        <giverClass>QEthics.WorkGiver_MaintainGrower</giverClass>
+        <verb>maintain</verb>
+        <gerund>maintaining</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+            <li>Sight</li>
+        </requiredCapacities>
+        <fixedBillGiverDefs>
+            <li>QE_OrganVat</li>
+        </fixedBillGiverDefs>
+    </WorkGiverDef>
+
+    <WorkGiverDef ParentName="OrganVatMaintainBase">
+        <defName>QE_OrganGrower_Maintain</defName>
+        <workType>QE_MaintainVat</workType>
+        <priorityInType>1</priorityInType>
+    </WorkGiverDef>
+</Defs>

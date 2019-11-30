@@ -8,6 +8,9 @@ using Verse.AI;
 
 namespace QEthics
 {
+    /// <summary>
+    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
+    /// </summary>
     public class WorkGiver_MaintainGrower : WorkGiver_Scanner
     {
         public override ThingRequest PotentialWorkThingRequest => ThingRequest.ForDef(def.fixedBillGiverDefs.FirstOrDefault());

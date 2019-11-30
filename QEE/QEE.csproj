@@ -55,15 +55,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\JobDriver_DepositIntoGrower.cs" />
+    <Compile Include="AI\JobDriver_ExtractProductFromGrower.cs" />
+    <Compile Include="AI\JobDriver_GrowerMaintenance.cs" />
+    <Compile Include="AI\JobDriver_LoadGrower.cs" />
     <Compile Include="AI\JobDriver_ExtractGrowerProduct.cs" />
     <Compile Include="AI\JobDriver_MaintainGrower.cs" />
     <Compile Include="AI\JobDriver_UseBrainTemplate.cs" />
     <Compile Include="AI\JobDriver_SalvageGenome.cs" />
     <Compile Include="AI\Properties\MaintainVatProperties.cs" />
+    <Compile Include="AI\QEEToils.cs" />
+    <Compile Include="AI\WorkGiver_DoBill_Grower.cs" />
+    <Compile Include="AI\WorkGiver_ExtractProductFromGrower.cs" />
+    <Compile Include="AI\WorkGiver_GrowerMaintenance.cs" />
     <Compile Include="AI\WorkGiver_MaintainGrower.cs" />
     <Compile Include="AI\WorkGiver_GrowerExtractProduct.cs" />
     <Compile Include="AI\WorkGiver_GrowerOrderProcessor.cs" />
     <Compile Include="Alerts\Alert_GrowerMaintence.cs" />
+    <Compile Include="Alerts\Alert_MaintenanceLow.cs" />
     <Compile Include="CompatibilityTracker.cs" />
     <Compile Include="Compatibility\AlienRaceCompat.cs" />
     <Compile Include="Compatibility\GeneralCompatibility.cs" />
@@ -77,9 +85,12 @@
     <Compile Include="DefOfs\QEThoughtDefOf.cs" />
     <Compile Include="DefOfs\QEWorkTypeDefOf.cs" />
     <Compile Include="Defs\BackstoryDef.cs" />
-    <Compile Include="Defs\GrowerRecipeDef.cs" />
+    <Compile Include="Legacy\Legacy_GrowerRecipeDef.cs" />
+    <Compile Include="Legacy\Legacy_VatGrower.cs" />
+    <Compile Include="Logic\BillProcessor.cs" />
     <Compile Include="Logic\ComparableSkillRecord.cs" />
     <Compile Include="Logic\ExposedTraitEntry.cs" />
+    <Compile Include="Logic\IBillGiverExtension.cs" />
     <Compile Include="Logic\IMaintainableGrower.cs" />
     <Compile Include="Logic\ThingOrderProcessor.cs" />
     <Compile Include="Logic\ThingOrderRequest.cs" />
@@ -95,9 +106,11 @@
     <Compile Include="Things\BrainScanTemplate.cs" />
     <Compile Include="Things\Building_AutoDoctor.cs" />
     <Compile Include="Things\Building_GrowerBase.cs" />
+    <Compile Include="Things\Building_GrowerBase_WorkTable.cs" />
     <Compile Include="Things\Building_PawnVatGrower.cs" />
-    <Compile Include="Things\Building_VatGrower.cs" />
+    <Compile Include="Things\Building_OrganVat.cs" />
     <Compile Include="Things\GenomeSequence.cs" />
+    <Compile Include="Things\Properties\RecipeGraphicProperties.cs" />
     <Compile Include="Things\Properties\RecipeOutcomeProperties.cs" />
     <Compile Include="Things\Properties\GrowerProperties.cs" />
     <Compile Include="Things\Properties\VatGrowerProperties.cs" />

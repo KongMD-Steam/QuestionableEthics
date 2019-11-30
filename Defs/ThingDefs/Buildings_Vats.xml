@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="BuildingBase">
-		<defName>QE_OrganVat</defName>
+		<defName>QE_Building_OrganVat</defName>
 		<label>organ vat</label>
 		<description>A vat for growing various natural organs from nutrient paste and protein mash. Requires regular maintenance by a skilled scientist and doctor. A sterile room will significantly decrease the maintenance required. If the vat loses power, it will rapidly lose maintenance.</description>
-		<thingClass>QEthics.Building_VatGrower</thingClass>
+		<thingClass>QEthics.Building_OrganVat</thingClass>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -25,6 +25,112 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<designationCategory>Production</designationCategory>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<uiIconOffset>(0, 0.03)</uiIconOffset>
+		<uiIconScale>0.65</uiIconScale>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<building>
+			<uninstallWork>1800</uninstallWork>
+			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<inspectorTabs>
+				<li>ITab_Bills</li>
+		</inspectorTabs>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<Steel>200</Steel>
+			<Silver>35</Silver>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<researchPrerequisites>
+			<li>QE_OrganVat</li>
+		</researchPrerequisites>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Beauty>5</Beauty>
+			<Mass>50</Mass>
+			<Cleanliness>1.2</Cleanliness>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1.75</glowRadius>
+				<glowColor>(181,230,29,0)</glowColor>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="QEthics.VatGrowerProperties">
+				<bottomGraphic>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Building/QEVatBottom</texPath>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+				</bottomGraphic>
+				<topGraphic>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Building/QEVatTop</texPath>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+				</topGraphic>
+				<glowGraphic>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Building/QEVatGlow</texPath>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+				</glowGraphic>
+				<topDetailGraphic>
+					<graphicClass>Graphic_Single</graphicClass>
+					<texPath>Things/Building/QEVatTopDetail</texPath>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+				</topDetailGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+		<defName>QE_OrganVat</defName>
+		<label>organ vat (legacy)</label>
+		<description>This building has been updated in the latest version of Questionable Ethics Enhanced. It will continue to function, but will be unsupported in future updates. Build a new Organ Vat (or replace this one with debug tools) to see the changes!</description>
+		<thingClass>QEthics.Building_VatGrower</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/QEVat</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.52, 0.53, 0.09)</volume>
+				<offset>(0,0,-0.43)</offset>
+			</shadowData>
+		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
+		<size>(1,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<rotatable>true</rotatable>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>

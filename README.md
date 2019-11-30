@@ -23,7 +23,8 @@ Questionable Ethics Enhanced is a successor to the Questionable Ethics mod creat
 * Nutrient Solution and Protein Mash recipes, output, and costs have been rebalanced across the board. See mod preview image for details.
 * Cloning vats now display how many days remain until clone is fully grown, instead of a percentage of completion.
 * The Apply Brain Templating toils have been re-written and many bugs have been fixed. Get [feedback messages during pawn selection](https://github.com/KongMD-Steam/QuestionableEthicsEnhanced/blob/master/Languages/English/Keyed/QuestionableEthics.xml), if it's an invalid target.
-* Family relationships will no longer be generated for clones
+* Family relationships will no longer be generated for clones.
+* The Organ Vat now uses Bills, like a workbench, instead of the Start Growing gizmo.
 
 ## Can I use this on an existing save?
 Yes. 
@@ -64,6 +65,7 @@ If you run into errors when adding this mod to your modlist, please let me know 
 ## Harmony Patches
 * MedicalRecipesUtility.SpawnNaturalPartIfClean() - Postfix
 * Recipe_InstallNaturalBodyPart.ApplyOnPawn() - Postfix
+* BillUtility.GetWorkgiver() - Prefix
 
 ## Links
 [Source code](https://github.com/KongMD-Steam/QuestionableEthicsEnhanced)

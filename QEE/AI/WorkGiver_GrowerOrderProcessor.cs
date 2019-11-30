@@ -9,6 +9,7 @@ using Verse.AI;
 namespace QEthics
 {
     /// <summary>
+    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
     /// WorkGiver for order processors.
     /// </summary>
     public class WorkGiver_GrowerOrderProcessor : WorkGiver_Scanner

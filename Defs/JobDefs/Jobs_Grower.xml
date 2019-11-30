@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!-- Defs used by Organ Vat -->
 	<JobDef>
-		<defName>QE_DepositIntoGrowerJob</defName>
-		<driverClass>QEthics.JobDriver_DepositIntoGrower</driverClass>
+		<defName>QE_LoadGrowerJob</defName>
+		<driverClass>QEthics.JobDriver_LoadGrower</driverClass>
 		<reportString>filling TargetA with TargetB.</reportString>
 		<suspendable>false</suspendable>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
 
 	<JobDef>
+		<defName>QE_ExtractProductFromGrowerJob</defName>
+		<driverClass>QEthics.JobDriver_ExtractProductFromGrower</driverClass>
+		<reportString>extracting from TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>QE_GrowerMaintenanceJob_Intellectual</defName>
+		<driverClass>QEthics.JobDriver_GrowerMaintenance</driverClass>
+		<reportString>monitoring and adjusting TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<modExtensions>
+			<li Class="QEthics.MaintainVatProperties">
+				<maintainingSkill>Intellectual</maintainingSkill>
+			</li>
+		</modExtensions>
+	</JobDef>
+
+	<JobDef>
+		<defName>QE_GrowerMaintenanceJob_Medicine</defName>
+		<driverClass>QEthics.JobDriver_GrowerMaintenance</driverClass>
+		<reportString>regulating values for TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+		<modExtensions>
+			<li Class="QEthics.MaintainVatProperties">
+				<maintainingSkill>Medicine</maintainingSkill>
+			</li>
+		</modExtensions>
+	</JobDef>
+
+	
+	<!-- Only used by Pawn Vat -->
+	<JobDef>
 		<defName>QE_ExtractFromGrowerJob</defName>
 		<driverClass>QEthics.JobDriver_ExtractGrowerProduct</driverClass>
 		<reportString>extracting from TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>QE_DepositIntoGrowerJob</defName>
+		<driverClass>QEthics.JobDriver_DepositIntoGrower</driverClass>
+		<reportString>filling TargetA with TargetB.</reportString>
 		<suspendable>false</suspendable>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>

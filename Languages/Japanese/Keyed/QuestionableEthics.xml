@@ -117,10 +117,6 @@
   <!-- version 1.1.0 Patch -->
   <QE_OrganVatDebugFinishGrowingDescription>臓器の成長を即時完了する。</QE_OrganVatDebugFinishGrowingDescription>
   <QE_JobFailReasonNoBillsQueued>現在予約された加工命令はありません</QE_JobFailReasonNoBillsQueued>
-  <QE_JobFailReasonPawnRestriction>{0}は作業員の{PAWN_labelShort}に制限されます</QE_JobFailReasonPawnRestriction>
-  <QE_JobFailReasonGrowerBusy>{0}は既に培養中です</QE_JobFailReasonGrowerBusy>
-  <QE_JobFailReasonCannotReserve>{PAWN_labelShort}は{1}を予約できない</QE_JobFailReasonCannotReserve>
-
   <QE_JobFailReasonPawnRestriction>加工命令はポーン{0}だけに制限されている</QE_JobFailReasonPawnRestriction>
   <QE_JobFailReasonGrowerBusy>レシピは既に培養中です</QE_JobFailReasonGrowerBusy>
   <QE_JobFailReasonNoIngredients>材料がありません。数秒間隔で確認します</QE_JobFailReasonNoIngredients>
@@ -130,5 +126,4 @@
   <QE_JobFailReasonGeneric>ポーンはこの加工命令を実行不可能</QE_JobFailReasonGeneric>
   <QE_IngredientCheckInterval>材料のマップ上検索間隔(秒)</QE_IngredientCheckInterval>
   <QE_IngredientCheckIntervalDescription>[検索精度］臓器培養槽は、この指定された間隔で利用可能な材料をマップ上で検索します。培養槽が何もしていない時か充填する時にだけ材料を検索します。デフォルトは3秒間隔</QE_IngredientCheckIntervalDescription>
-
 </LanguageData>

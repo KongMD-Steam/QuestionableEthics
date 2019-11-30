@@ -114,6 +114,16 @@
 	<QE_MaxCloningTime>Max cloning time (days)</QE_MaxCloningTime>
 	<QE_MaxCloningTimeTooltip>A clone will not grow longer than this number of days in a Cloning Vat. Default = 60</QE_MaxCloningTimeTooltip>
 
-	<!-- version 1.04 Patch -->
+	<!-- version 1.1.0 Patch -->
 	<QE_OrganVatDebugFinishGrowingDescription>Instantly finishes growing the organ.</QE_OrganVatDebugFinishGrowingDescription>
+	<QE_JobFailReasonNoBillsQueued>No bills currently queued</QE_JobFailReasonNoBillsQueued>
+	<QE_JobFailReasonPawnRestriction>Bill is restricted to pawn {0}</QE_JobFailReasonPawnRestriction>
+	<QE_JobFailReasonGrowerBusy>Already growing a recipe</QE_JobFailReasonGrowerBusy>
+	<QE_JobFailReasonNoIngredients>No ingredients available. Only checked every few seconds</QE_JobFailReasonNoIngredients>
+	<QE_JobFailReasonRecentIngSearch>Ingredient search recently failed for this bill</QE_JobFailReasonRecentIngSearch>
+	<QE_JobFailReasonWorkTypeMismatch>Recipe WorkType doesn't match the type in the workgiver</QE_JobFailReasonWorkTypeMismatch>
+	<QE_JobFailReasonShouldDoFalse>Bill is suspended or TargetCount is zero</QE_JobFailReasonShouldDoFalse>
+	<QE_JobFailReasonGeneric>Pawn can't do this bill</QE_JobFailReasonGeneric>
+	<QE_IngredientCheckInterval>Ingredient map scanning interval (seconds)</QE_IngredientCheckInterval>
+	<QE_IngredientCheckIntervalDescription>[Performance] Organ Vats will scan the map for available ingredients on this interval. They only check for ingredients when Idle or Filling. Default = 3 seconds</QE_IngredientCheckIntervalDescription>
 </LanguageData>

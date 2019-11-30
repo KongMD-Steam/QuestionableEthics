@@ -36,4 +36,4 @@ using System.Runtime.InteropServices;
 // **AssemblyVersion will never be changed for this project, unless there's a complete overhaul that breaks things (I don't plan on that).**
 // Communication will be made in advance, if that happens.
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.3.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]

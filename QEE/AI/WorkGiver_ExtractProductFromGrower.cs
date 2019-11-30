@@ -9,17 +9,15 @@ using Verse.AI;
 namespace QEthics
 {
     /// <summary>
-    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
-    /// WorkGiver for order processors
+    /// WorkGiver for order processors.
     /// </summary>
-    public class WorkGiver_GrowerExtractProduct : WorkGiver_Scanner
+    public class WorkGiver_ExtractProductFromGrower : WorkGiver_Scanner
     {
         public override ThingRequest PotentialWorkThingRequest => ThingRequest.ForDef(def.fixedBillGiverDefs.FirstOrDefault());
 
-        //JobDriver_HaulToContainer is Job 'HaulToContainer'
         public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-            Building_GrowerBase grower = t as Building_GrowerBase;
+            Building_GrowerBase_WorkTable grower = t as Building_GrowerBase_WorkTable;
             if(grower == null)
             {
                 return false;
@@ -50,9 +48,9 @@ namespace QEthics
 
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
-            Building_GrowerBase grower = t as Building_GrowerBase;
+            Building_GrowerBase_WorkTable grower = t as Building_GrowerBase_WorkTable;
 
-            Job job = new Job(QEJobDefOf.QE_ExtractFromGrowerJob, t);
+            Job job = new Job(QEJobDefOf.QE_ExtractProductFromGrowerJob, t);
             return job;
         }
     }

@@ -9,6 +9,7 @@ using Verse.AI;
 namespace QEthics
 {
     /// <summary>
+    /// THIS IS A DEPRECATED CLASS. It is here for save compatibility only.
     /// Extracts the product out of a Grower.
     /// </summary>
     public class JobDriver_ExtractGrowerProduct : JobDriver

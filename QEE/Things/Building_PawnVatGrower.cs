@@ -8,6 +8,9 @@ using Verse;
 
 namespace QEthics
 {
+    /// <summary>
+    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work.
+    /// </summary>
     public class Building_PawnVatGrower : Building_GrowerBase, IMaintainableGrower
     {
         public PawnKindDef pawnKindToGrow;
@@ -503,9 +506,9 @@ namespace QEthics
                         {
                             otherVats.AddRange(otherVatGrowers);
                         }
-
-                        IEnumerable<Thing> validGenomes = Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableEver)?.
-                        Where(thing => !thing.Position.Fogged(Map) && thing is GenomeSequence && !thing.IsForbidden(Faction.OfPlayer) &&
+                        ThingRequest tRequest = ThingRequest.ForDef(QEThingDefOf.QE_GenomeSequencerFilled);
+                        IEnumerable<Thing> validGenomes = Map.listerThings.ThingsMatching(tRequest)?.
+                        Where(thing => !thing.Position.Fogged(Map) && !thing.IsForbidden(Faction.OfPlayer) &&
                         (thing.stackCount - otherVats.Count(vat => vat.status == CrafterStatus.Filling && vat.orderProcessor.desiredIngredients.FirstOrDefault(req => req.HasThing && req.thing == thing) != null) > 0));
                         if(validGenomes != null)
                         {

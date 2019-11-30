@@ -8,10 +8,7 @@ using Verse.AI;
 
 namespace QEthics
 {
-    /// <summary>
-    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
-    /// </summary>
-    public class JobDriver_MaintainGrower : JobDriver
+    public class JobDriver_GrowerMaintenance : JobDriver
     {
         public MaintainVatProperties VatJobProperties
         {
@@ -43,7 +40,7 @@ namespace QEthics
         {
             this.FailOn(delegate()
             {
-                return TargetThingA is Building_GrowerBase vat && vat.status != CrafterStatus.Crafting;
+                return TargetThingA is Building_GrowerBase_WorkTable vat && vat.status != CrafterStatus.Crafting;
             });
             this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
             this.FailOnDestroyedOrNull(TargetIndex.A);

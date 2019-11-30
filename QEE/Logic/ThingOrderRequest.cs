@@ -89,6 +89,20 @@ namespace QEthics
             }
         }
 
+        public ThingRequest GetThingRequest()
+        {
+            if (HasThing)
+            {
+                return ThingRequest.ForDef(thing.def);
+            }
+            if (HasThingFilter)
+            {
+                return thingFilter.BestThingRequest;
+            }
+
+            return ThingRequest.ForUndefined();
+        }
+
         public ThingOrderRequest()
         {
             
@@ -189,6 +203,20 @@ namespace QEthics
             if (HasThingFilter)
             {
                 return thingFilter.Allows(thing);
+            }
+
+            return false;
+        }
+
+        public bool ThingDefMatches(Thing aThing)
+        {
+            if (HasThing)
+            {
+                return this.thing.def == aThing.def;
+            }
+            if (HasThingFilter)
+            {
+                return thingFilter.Allows(aThing);
             }
 
             return false;

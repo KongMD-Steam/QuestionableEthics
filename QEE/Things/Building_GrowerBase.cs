@@ -8,6 +8,7 @@ using RimWorld;
 namespace QEthics
 {
     /// <summary>
+    /// THIS IS CLASS WILL BE DEPRECATED SOON. Do not use in new development work. It is now only used in the Pawn Vat.
     /// Status for crafters deriving from QEthics.Building_GrowerBase. 
     /// </summary>
     public enum CrafterStatus
