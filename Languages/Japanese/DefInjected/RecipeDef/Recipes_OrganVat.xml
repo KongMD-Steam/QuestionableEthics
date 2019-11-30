@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Organ Recipes -->
+
+  <QE_Natural_Arm.label>腕（生体）</QE_Natural_Arm.label>
+  <QE_Natural_Ear.label>耳（生体）</QE_Natural_Ear.label>
+  <QE_Natural_Eye.label>眼（生体）</QE_Natural_Eye.label>
+  <QE_Natural_Foot.label>足（生体）</QE_Natural_Foot.label>
+  <QE_Natural_Hand.label>手（生体）</QE_Natural_Hand.label>
+  <QE_Natural_Heart.label>心臓（生体）</QE_Natural_Heart.label>
+  <QE_Natural_Jaw.label>顎（生体）</QE_Natural_Jaw.label>
+  <QE_Natural_Kidney.label>腎臓（生体）</QE_Natural_Kidney.label>
+  <QE_Natural_Leg.label>脚（生体）</QE_Natural_Leg.label>
+  <QE_Natural_Liver.label>肝臓（生体）</QE_Natural_Liver.label>
+  <QE_Natural_Lung.label>肺（生体）</QE_Natural_Lung.label>
+  <QE_Natural_Nose.label>鼻（生体）</QE_Natural_Nose.label>
+  <QE_Natural_Pelvis.label>骨盤（生体）</QE_Natural_Pelvis.label>
+  <QE_Natural_Spine.label>背骨（生体）</QE_Natural_Spine.label>
+  <QE_Natural_Stomach.label>胃（生体）</QE_Natural_Stomach.label>
+
+  <QE_Natural_Lung.jobString>未知のレシピです。</QE_Natural_Lung.jobString>
+  <QE_Natural_Heart.jobString>未知のレシピです。</QE_Natural_Heart.jobString>
+  <QE_Natural_Kidney.jobString>未知のレシピです。</QE_Natural_Kidney.jobString>
+  <QE_Natural_Stomach.jobString>未知のレシピです。</QE_Natural_Stomach.jobString>
+  <QE_Natural_Liver.jobString>未知のレシピです。</QE_Natural_Liver.jobString>
+  <QE_Natural_Eye.jobString>未知のレシピです。</QE_Natural_Eye.jobString>
+  <QE_Natural_Ear.jobString>未知のレシピです。</QE_Natural_Ear.jobString>
+  <QE_Natural_Nose.jobString>未知のレシピです。</QE_Natural_Nose.jobString>
+  <QE_Natural_Jaw.jobString>未知のレシピです。</QE_Natural_Jaw.jobString>
+  <QE_Natural_Spine.jobString>未知のレシピです。</QE_Natural_Spine.jobString>
+  <QE_Natural_Pelvis.jobString>未知のレシピです。</QE_Natural_Pelvis.jobString>
+  <QE_Natural_Arm.jobString>未知のレシピです。</QE_Natural_Arm.jobString>
+  <QE_Natural_Hand.jobString>未知のレシピです。</QE_Natural_Hand.jobString>
+  <QE_Natural_Leg.jobString>未知のレシピです。</QE_Natural_Leg.jobString>
+  <QE_Natural_Foot.jobString>未知のレシピです。</QE_Natural_Foot.jobString>
+
+</LanguageData>

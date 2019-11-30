@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <QE_OrderProcessor_OrganVat.label>臓器培養槽を満たす</QE_OrderProcessor_OrganVat.label>
+  <QE_OrderProcessor_OrganVat.verb>満たす</QE_OrderProcessor_OrganVat.verb>
+  <QE_OrderProcessor_OrganVat.gerund>充填中</QE_OrderProcessor_OrganVat.gerund>
+
+  <QE_OrganVat_Extract.label>臓器培養槽から完成品を取り出す</QE_OrganVat_Extract.label>
+  <QE_OrganVat_Extract.verb>取り出す</QE_OrganVat_Extract.verb>
+  <QE_OrganVat_Extract.gerund>取り出す</QE_OrganVat_Extract.gerund>
+
+  <QE_OrganGrower_Maintain.label>臓器培養槽を整備する</QE_OrganGrower_Maintain.label>
+  <QE_OrganGrower_Maintain.verb>整備する</QE_OrganGrower_Maintain.verb>
+  <QE_OrganGrower_Maintain.gerund>整備中</QE_OrganGrower_Maintain.gerund>
+
+</LanguageData>

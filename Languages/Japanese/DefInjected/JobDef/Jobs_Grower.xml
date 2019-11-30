@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <QE_DepositIntoGrowerJob.reportString>TargetAをTargetBで満たしている。</QE_DepositIntoGrowerJob.reportString>
+  <!-- Defs used by Organ Vat -->
+
+  <QE_LoadGrowerJob.reportString>TargetAをTargetBで満たしている。</QE_LoadGrowerJob.reportString>
+  <QE_ExtractProductFromGrowerJob.reportString>TargetAから取り出している。</QE_ExtractProductFromGrowerJob.reportString>
+  <QE_GrowerMaintenanceJob_Intellectual.reportString>TargetAの監視と調整をしている。</QE_GrowerMaintenanceJob_Intellectual.reportString>
+  <QE_GrowerMaintenanceJob_Medicine.reportString>TargetAの薬品量を調整しています。</QE_GrowerMaintenanceJob_Medicine.reportString>
+
+
+  <!-- Only used by Pawn Vat -->
+
   <QE_ExtractFromGrowerJob.reportString>TargetAから取り出している。</QE_ExtractFromGrowerJob.reportString>
-  <QE_MaintainGrowerJob_Intellectual.reportString>TargetAの監視と調整をしている</QE_MaintainGrowerJob_Intellectual.reportString>
+  <QE_DepositIntoGrowerJob.reportString>TargetAをTargetBで満たしている。</QE_DepositIntoGrowerJob.reportString>
+  <QE_MaintainGrowerJob_Intellectual.reportString>TargetAの監視と調整をしている。</QE_MaintainGrowerJob_Intellectual.reportString>
   <QE_MaintainGrowerJob_Medicine.reportString>TargetAの薬品量を調整しています。</QE_MaintainGrowerJob_Medicine.reportString>
 
 </LanguageData>

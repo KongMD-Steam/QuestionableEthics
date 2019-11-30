@@ -1,18 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <QE_OrganVat.label>臓器培養槽</QE_OrganVat.label>
-  <QE_OrganVat.description>栄養液とプロテインの塊から色々な移植用の生体臓器を培養するための培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</QE_OrganVat.description>
-  <Blueprint_QE_OrganVat.label>臓器培養槽(設計)</Blueprint_QE_OrganVat.label>
-  <Blueprint_Install_QE_OrganVat.label>臓器培養槽(移動先)</Blueprint_Install_QE_OrganVat.label>
-  <Frame_QE_OrganVat.label>臓器培養槽(施行)</Frame_QE_OrganVat.label>
-  <Frame_QE_OrganVat.description>栄養液とプロテインの塊から色々な移植用の生体臓器を培養するための培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</Frame_QE_OrganVat.description>
+  <QE_Building_OrganVat.label>臓器培養槽</QE_Building_OrganVat.label>
+  <QE_Building_OrganVat.description>栄養液とプロテインの塊から色々な移植用の生体臓器を培養するための培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</QE_Building_OrganVat.description>
+  <Blueprint_QE_Building_OrganVat.label>臓器培養槽(設計)</Blueprint_QE_Building_OrganVat.label>
+  <Blueprint_Install_QE_Building_OrganVat.label>臓器培養槽(移動先)</Blueprint_Install_QE_Building_OrganVat.label>
+  <Frame_QE_Building_OrganVat.label>臓器培養槽(施工)</Frame_QE_Building_OrganVat.label>
+  <Frame_QE_Building_OrganVat.description>栄養液とプロテインの塊から色々な移植用の生体臓器を培養するための培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</Frame_QE_Building_OrganVat.description>
+
+  <QE_OrganVat.label>臓器培養槽 (廃止)</QE_OrganVat.label>
+  <QE_OrganVat.description>この建築物は、QuestionableEthicsEnhancedの最新バージョンで更新されています。まだ機能していますが、将来のアップデートではサポートは停止します。新しい臓器培養槽を建設（またはこれをデバッグツールで置き換え）して、変更された事を確認してください！</QE_OrganVat.description>
+  <Blueprint_Install_QE_OrganVat.label>臓器培養槽 (廃止)(移動先)</Blueprint_Install_QE_OrganVat.label>
 
   <QE_PawnVat.label>クローン培養槽</QE_PawnVat.label>
   <QE_PawnVat.description>栄養液とプロテインの塊から生物のクローンを培養するための巨大な培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</QE_PawnVat.description>
   <Blueprint_QE_PawnVat.label>クローン培養槽(設計)</Blueprint_QE_PawnVat.label>
   <Blueprint_Install_QE_PawnVat.label>クローン培養槽(移動先)</Blueprint_Install_QE_PawnVat.label>
-  <Frame_QE_PawnVat.label>クローン培養槽(施行)</Frame_QE_PawnVat.label>
+  <Frame_QE_PawnVat.label>クローン培養槽(施工)</Frame_QE_PawnVat.label>
   <Frame_QE_PawnVat.description>栄養液とプロテインの塊から生物のクローンを培養するための巨大な培養槽(タンク)です。熟練したスキルを持つ科学者と医師による定期的な整備が必要です。清潔度の高い無菌室は、必要な整備の頻度を大幅に削減します。培養槽が電力を失うと、急速に整備状態が悪化します。</Frame_QE_PawnVat.description>
 
 </LanguageData>

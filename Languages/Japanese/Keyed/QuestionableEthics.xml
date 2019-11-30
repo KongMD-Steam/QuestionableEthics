@@ -14,8 +14,6 @@
 
   <!-- Vat grower -->
   <QE_VatGrowerProduct>製造物</QE_VatGrowerProduct>
-  <!-- <QE_VatGrowerScientistMaintenance>調査装置の整備</QE_VatGrowerScientistMaintenance>
-  <QE_VatGrowerDoctorMaintenance>診断装置の整備</QE_VatGrowerDoctorMaintenance> -->
   <QE_VatGrowerMaintenance>整備：科学者{0}、医者{1}</QE_VatGrowerMaintenance>
   <QE_VatGrowerCleanlinessMult>清潔さの状態。倍率：{0}</QE_VatGrowerCleanlinessMult>
   <QE_VatGrowerDaysRemaining>日数(残り)</QE_VatGrowerDaysRemaining>
@@ -115,5 +113,22 @@
   <QE_OrgaVatMaintFailFallbackMessage>臓器の作成に失敗した。理由：クローン培養槽が整備されてない</QE_OrgaVatMaintFailFallbackMessage>
   <QE_MaxCloningTime>最大培養時間（日）</QE_MaxCloningTime>
   <QE_MaxCloningTimeTooltip>クローン培養槽でクローンを培養するのにかかる時間はこの日数より長くなりません。初期値は60日間</QE_MaxCloningTimeTooltip>
+
+  <!-- version 1.1.0 Patch -->
+  <QE_OrganVatDebugFinishGrowingDescription>臓器の成長を即時完了する。</QE_OrganVatDebugFinishGrowingDescription>
+  <QE_JobFailReasonNoBillsQueued>現在予約された加工命令はありません</QE_JobFailReasonNoBillsQueued>
+  <QE_JobFailReasonPawnRestriction>{0}は作業員の{PAWN_labelShort}に制限されます</QE_JobFailReasonPawnRestriction>
+  <QE_JobFailReasonGrowerBusy>{0}は既に培養中です</QE_JobFailReasonGrowerBusy>
+  <QE_JobFailReasonCannotReserve>{PAWN_labelShort}は{1}を予約できない</QE_JobFailReasonCannotReserve>
+
+  <QE_JobFailReasonPawnRestriction>加工命令はポーン{0}だけに制限されている</QE_JobFailReasonPawnRestriction>
+  <QE_JobFailReasonGrowerBusy>レシピは既に培養中です</QE_JobFailReasonGrowerBusy>
+  <QE_JobFailReasonNoIngredients>材料がありません。数秒間隔で確認します</QE_JobFailReasonNoIngredients>
+  <QE_JobFailReasonRecentIngSearch>この加工命令の材料検索に最近失敗した</QE_JobFailReasonRecentIngSearch>
+  <QE_JobFailReasonWorkTypeMismatch>レシピのWorkTypeがworkgiverの形式と一致しません</QE_JobFailReasonWorkTypeMismatch>
+  <QE_JobFailReasonShouldDoFalse>加工命令が中断されているか目標数が0です</QE_JobFailReasonShouldDoFalse>
+  <QE_JobFailReasonGeneric>ポーンはこの加工命令を実行不可能</QE_JobFailReasonGeneric>
+  <QE_IngredientCheckInterval>材料のマップ上検索間隔(秒)</QE_IngredientCheckInterval>
+  <QE_IngredientCheckIntervalDescription>[検索精度］臓器培養槽は、この指定された間隔で利用可能な材料をマップ上で検索します。培養槽が何もしていない時か充填する時にだけ材料を検索します。デフォルトは3秒間隔</QE_IngredientCheckIntervalDescription>
 
 </LanguageData>

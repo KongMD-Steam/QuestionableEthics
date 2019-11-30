@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Natural_Lung.label>肺（生体）</Natural_Lung.label>
+  <Natural_Heart.label>心臓（生体）</Natural_Heart.label>
+  <Natural_Kidney.label>腎臓（生体）</Natural_Kidney.label>
+  <Natural_Stomach.label>胃（生体）</Natural_Stomach.label>
+  <Natural_Liver.label>肝臓（生体）</Natural_Liver.label>
+  <Natural_Eye.label>眼（生体）</Natural_Eye.label>
+  <Natural_Ear.label>耳（生体）</Natural_Ear.label>
+  <Natural_Nose.label>鼻（生体）</Natural_Nose.label>
+  <Natural_Jaw.label>顎（生体）</Natural_Jaw.label>
+  <Natural_Spine.label>背骨（生体）</Natural_Spine.label>
+  <Natural_Pelvis.label>骨盤（生体）</Natural_Pelvis.label>
+  <Natural_Arm.label>腕（生体）</Natural_Arm.label>
+  <Natural_Hand.label>手（生体）</Natural_Hand.label>
+  <Natural_Leg.label>脚（生体）</Natural_Leg.label>
+  <Natural_Foot.label>足（生体）</Natural_Foot.label>
+
+</LanguageData>
