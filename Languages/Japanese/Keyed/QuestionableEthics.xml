@@ -126,4 +126,10 @@
   <QE_JobFailReasonGeneric>ポーンはこの加工命令を実行不可能</QE_JobFailReasonGeneric>
   <QE_IngredientCheckInterval>材料のマップ上検索間隔(秒)</QE_IngredientCheckInterval>
   <QE_IngredientCheckIntervalDescription>[検索精度］臓器培養槽は、この指定された間隔で利用可能な材料をマップ上で検索します。培養槽が何もしていない時か充填する時にだけ材料を検索します。デフォルトは3秒間隔</QE_IngredientCheckIntervalDescription>
+
+  <!-- version 1.2.0 Patch -->
+  <QE_BrainScanningRejectWrongKind>このテンプレートは種族「{1}」専用なため、{0}へは適用できません</QE_BrainScanningRejectWrongKind>
+  <QE_BrainTemplatingRequiresClone>ブレインテンプレートの手術にはクローンが必要</QE_BrainTemplatingRequiresClone>
+  <QE_BrainTemplatingRequiresCloneTooltip>オンの場合、「クローン」の健康状態(hediff)を持つポーンにだけブレインテンプレートを適用できます。デフォルトではオン</QE_BrainTemplatingRequiresCloneTooltip>
+
 </LanguageData>
