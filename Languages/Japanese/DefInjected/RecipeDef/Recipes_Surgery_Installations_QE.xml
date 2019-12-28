@@ -3,48 +3,48 @@
 
   <!-- Natural -->
 
-  <QE_InstallNaturalEye.label>生体眼 移植</QE_InstallNaturalEye.label>
-  <QE_InstallNaturalEye.description>生体眼を移植します。</QE_InstallNaturalEye.description>
-  <QE_InstallNaturalEye.jobString>生体眼を移植中</QE_InstallNaturalEye.jobString>
+  <QE_InstallNaturalArm.label>生体腕 移植</QE_InstallNaturalArm.label>
+  <QE_InstallNaturalArm.description>生体腕を移植します。</QE_InstallNaturalArm.description>
+  <QE_InstallNaturalArm.jobString>生体腕を移植中</QE_InstallNaturalArm.jobString>
 
   <QE_InstallNaturalEar.label>生体耳 移植</QE_InstallNaturalEar.label>
   <QE_InstallNaturalEar.description>生体耳を移植します。</QE_InstallNaturalEar.description>
   <QE_InstallNaturalEar.jobString>生体耳を移植中</QE_InstallNaturalEar.jobString>
 
-  <QE_InstallNaturalNose.label>生体鼻 移植</QE_InstallNaturalNose.label>
-  <QE_InstallNaturalNose.description>生体鼻を移植します。</QE_InstallNaturalNose.description>
-  <QE_InstallNaturalNose.jobString>生体鼻を移植中</QE_InstallNaturalNose.jobString>
+  <QE_InstallNaturalEye.label>生体眼 移植</QE_InstallNaturalEye.label>
+  <QE_InstallNaturalEye.description>生体眼を移植します。</QE_InstallNaturalEye.description>
+  <QE_InstallNaturalEye.jobString>生体眼を移植中</QE_InstallNaturalEye.jobString>
 
-  <QE_InstallNaturalJaw.label>生体顎 移植</QE_InstallNaturalJaw.label>
-  <QE_InstallNaturalJaw.description>生体顎を移植します。</QE_InstallNaturalJaw.description>
-  <QE_InstallNaturalJaw.jobString>生体顎を移植中</QE_InstallNaturalJaw.jobString>
-
-  <QE_InstallNaturalStomach.label>生体胃 移植</QE_InstallNaturalStomach.label>
-  <QE_InstallNaturalStomach.description>生体胃を移植します。</QE_InstallNaturalStomach.description>
-  <QE_InstallNaturalStomach.jobString>生体胃を移植中</QE_InstallNaturalStomach.jobString>
-
-  <QE_InstallNaturalSpine.label>生体背骨 移植</QE_InstallNaturalSpine.label>
-  <QE_InstallNaturalSpine.description>生体背骨を移植します。</QE_InstallNaturalSpine.description>
-  <QE_InstallNaturalSpine.jobString>生体背骨を移植中</QE_InstallNaturalSpine.jobString>
-
-  <QE_InstallNaturalPelvis.label>生体骨盤 移植</QE_InstallNaturalPelvis.label>
-  <QE_InstallNaturalPelvis.description>生体骨盤を移植します。</QE_InstallNaturalPelvis.description>
-  <QE_InstallNaturalPelvis.jobString>生体骨盤を移植中</QE_InstallNaturalPelvis.jobString>
-
-  <QE_InstallNaturalArm.label>生体腕 移植</QE_InstallNaturalArm.label>
-  <QE_InstallNaturalArm.description>生体腕を移植します。</QE_InstallNaturalArm.description>
-  <QE_InstallNaturalArm.jobString>生体腕を移植中</QE_InstallNaturalArm.jobString>
+  <QE_InstallNaturalFoot.label>生体足 移植</QE_InstallNaturalFoot.label>
+  <QE_InstallNaturalFoot.description>生体足を移植します。</QE_InstallNaturalFoot.description>
+  <QE_InstallNaturalFoot.jobString>生体足を移植中</QE_InstallNaturalFoot.jobString>
 
   <QE_InstallNaturalHand.label>生体手 移植</QE_InstallNaturalHand.label>
   <QE_InstallNaturalHand.description>生体手を移植します。</QE_InstallNaturalHand.description>
   <QE_InstallNaturalHand.jobString>生体手を移植中</QE_InstallNaturalHand.jobString>
 
+  <QE_InstallNaturalJaw.label>生体顎 移植</QE_InstallNaturalJaw.label>
+  <QE_InstallNaturalJaw.description>生体顎を移植します。</QE_InstallNaturalJaw.description>
+  <QE_InstallNaturalJaw.jobString>生体顎を移植中</QE_InstallNaturalJaw.jobString>
+
   <QE_InstallNaturalLeg.label>生体脚 移植</QE_InstallNaturalLeg.label>
   <QE_InstallNaturalLeg.description>生体脚を移植します。</QE_InstallNaturalLeg.description>
   <QE_InstallNaturalLeg.jobString>生体脚を移植中</QE_InstallNaturalLeg.jobString>
 
-  <QE_InstallNaturalFoot.label>生体足 移植</QE_InstallNaturalFoot.label>
-  <QE_InstallNaturalFoot.description>生体足を移植します。</QE_InstallNaturalFoot.description>
-  <QE_InstallNaturalFoot.jobString>生体足を移植中</QE_InstallNaturalFoot.jobString>
+  <QE_InstallNaturalNose.label>生体鼻 移植</QE_InstallNaturalNose.label>
+  <QE_InstallNaturalNose.description>生体鼻を移植します。</QE_InstallNaturalNose.description>
+  <QE_InstallNaturalNose.jobString>生体鼻を移植中</QE_InstallNaturalNose.jobString>
+
+  <QE_InstallNaturalPelvis.label>生体骨盤 移植</QE_InstallNaturalPelvis.label>
+  <QE_InstallNaturalPelvis.description>生体骨盤を移植します。</QE_InstallNaturalPelvis.description>
+  <QE_InstallNaturalPelvis.jobString>生体骨盤を移植中</QE_InstallNaturalPelvis.jobString>
+
+  <QE_InstallNaturalSpine.label>生体背骨 移植</QE_InstallNaturalSpine.label>
+  <QE_InstallNaturalSpine.description>生体背骨を移植します。</QE_InstallNaturalSpine.description>
+  <QE_InstallNaturalSpine.jobString>生体背骨を移植中</QE_InstallNaturalSpine.jobString>
+
+  <QE_InstallNaturalStomach.label>生体胃 移植</QE_InstallNaturalStomach.label>
+  <QE_InstallNaturalStomach.description>生体胃を移植します。</QE_InstallNaturalStomach.description>
+  <QE_InstallNaturalStomach.jobString>生体胃を移植中</QE_InstallNaturalStomach.jobString>
 
 </LanguageData>
