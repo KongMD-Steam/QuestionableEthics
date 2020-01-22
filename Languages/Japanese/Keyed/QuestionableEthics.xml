@@ -132,4 +132,7 @@
   <QE_BrainTemplatingRequiresClone>ブレインテンプレートの手術にはクローンが必要</QE_BrainTemplatingRequiresClone>
   <QE_BrainTemplatingRequiresCloneTooltip>オンの場合、「クローン」の健康状態(hediff)を持つポーンにだけブレインテンプレートを適用できます。デフォルトではオン</QE_BrainTemplatingRequiresCloneTooltip>
 
+  <!-- version 1.3.0 Patch -->
+  <QE_GenomeSequencerDescription_Hediffs>Hediffs(負傷と病気)</QE_GenomeSequencerDescription_Hediffs>
+
 </LanguageData>
