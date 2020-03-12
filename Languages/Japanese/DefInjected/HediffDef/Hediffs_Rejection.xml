@@ -2,6 +2,7 @@
 <LanguageData>
 
   <QE_OrganRejection.label>臓器移植</QE_OrganRejection.label>
+  <QE_OrganRejection.description>臓器移植されました</QE_OrganRejection.description>
   <QE_OrganRejection.stages.mild_rejection.label>軽い拒絶反応</QE_OrganRejection.stages.mild_rejection.label>
   <QE_OrganRejection.stages.moderate_rejection.label>中度の拒絶反応</QE_OrganRejection.stages.moderate_rejection.label>
   <QE_OrganRejection.stages.serious_rejection.label>深刻な拒絶反応</QE_OrganRejection.stages.serious_rejection.label>

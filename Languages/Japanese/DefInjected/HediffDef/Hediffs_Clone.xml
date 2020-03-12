@@ -2,7 +2,12 @@
 <LanguageData>
 
   <QE_CloneStatus.label>クローン</QE_CloneStatus.label>
+  <QE_CloneStatus.description>クローン体です</QE_CloneStatus.description>
+
   <QE_BrainTemplated.label>ブレインテンプレート</QE_BrainTemplated.label>
+  <QE_BrainTemplated.description>インストールされたブレインテンプレートです</QE_BrainTemplated.description>
+
   <QE_Headache.label>頭痛</QE_Headache.label>
+  <QE_Headache.description>頭痛がします</QE_Headache.description>
 
 </LanguageData>
